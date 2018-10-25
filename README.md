@@ -1,2 +1,2 @@
 # DataStructures-CP
-DataStructures Covered by ME
+DataStructures Covered By ME
