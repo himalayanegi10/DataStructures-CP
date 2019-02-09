@@ -23,7 +23,7 @@ void update(int pos , int val , int n){
 
 int inversions(int n){
 	int res = 0;
-	for(int i = n ; i >= 1 ; i--){
+	for(int i = 1 ; i <= n ; i++){
 		update(arr[i],1,n);
 		res += query(arr[i]-1); 
 	}
